@@ -2,9 +2,8 @@
 
 
 export default async function Contact() {
-    //render a secondary bar for location
-
-    //render all - most recent instagram links
+    //simple render of contact and socials again + more
+    //google maps api?
 
     return (
         <>

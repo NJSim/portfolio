@@ -264,7 +264,14 @@ function Photos() {
     </div>
   )
 }
-
+/**
+ * Things to add:
+ * Skills blob to showcase what tech I know
+ * Small Contact where email insert is
+ * Small Jobs section
+ * 
+ * 
+ */
 export default async function Home() {
   let articles = (await getAllArticles()).slice(0, 4)
 
@@ -283,7 +290,6 @@ export default async function Home() {
             in the Greater Portland Area and beyond!
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
               href="#"
               aria-label="Follow on Instagram"
